@@ -5,3 +5,20 @@ Default timer is 3 minutes, but can be 1 or more.
 
 # Dependencies
 This software uses PyAutoGui https://github.com/asweigart/pyautogui as the driver behind the movement. 
+
+# Mac installation
+
+OSX on default comes with python 
+Test :
+  python3 --version (If not install with HomeBrew brew install python3)
+
+Install PIP package manager for python
+  sudo easy_install pip
+
+Install Package dependencies
+  pip3 install pyautogui
+
+
+# Run
+
+python3 src/awake.py
