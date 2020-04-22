@@ -6,7 +6,7 @@ pyautogui.FAILSAFE = False
 numMin = None
 screenWidth, screenHeight = pyautogui.size()
 if ((len(sys.argv)<2) or sys.argv[1].isalpha() or int(sys.argv[1])<1):
-    numMin = 1
+    numMin = 5
 else:
     numMin = int(sys.argv[1])
 while(True):
