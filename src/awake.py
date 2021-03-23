@@ -14,9 +14,9 @@ while(True):
     while(x<numMin):
         time.sleep(60)
         x+=1
-    for i in range(0,200):
+    for i in range(0,2):
         pyautogui.moveTo(0,i*4)
     pyautogui.moveTo(int(screenWidth/2),int(screenHeight/2))
-    for i in range(0,3):
-        pyautogui.press("shift")
+    # for i in range(0,3):
+    #     pyautogui.press("shift")
     print("Movement made at {}".format(datetime.now().time()))
