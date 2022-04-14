@@ -15,6 +15,9 @@ Test :
 Install PIP package manager for python
   sudo easy_install pip
 
+For Mac OS Sierra, cannot install pip via easy_instal
+curl https://bootstrap.pypa.io/get-pip.py | sudo python3
+
 Install Package dependencies
   pip3 install pyautogui
 
